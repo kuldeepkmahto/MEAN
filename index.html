@@ -1,8 +1,80 @@
-<html>
-    <head>  
-        <title>My Web Page</title>
-    </head>
-    <body>
-        <h1>Welcome to my project</h1>
-    </body> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Demo Webpage</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+
+            /* Background Image */
+            background-image: url('https://i.pinimg.com/736x/30/0c/0e/300c0e53a4c5216e17aa27ef8e4a0370.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        .content-box {
+            background: rgba(0, 0, 0, 0.55); 
+            padding: 30px;
+            border-radius: 12px;
+            width: 70%;
+            max-width: 800px;
+        }
+
+        a {
+            color: yellow;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="content-box">
+
+        <h1>Welcome</h1>
+
+        <div>
+            <a href="register.html">Sign Up</a>
+            <a href="sign.html">Sign In</a>
+        </div>
+
+        <p>
+            This is a fanpage. Marvel is one of the world’s most popular superhero universes,
+            filled with powerful characters, epic battles, and inspiring stories. From Iron Man 
+            and Captain America to Spider-Man, Black Panther, and the Guardians of the Galaxy, 
+            Marvel heroes protect the world from threats both on Earth and across the galaxy.
+            <br><br>
+            Marvel is loved for its strong characters, exciting stories, teamwork, and emotion 
+            that connects fans everywhere. Whether it's movies, comics, games, or series, Marvel 
+            brings heroes and fans together in an amazing universe.
+        </p>
+
+    </div>
+
+</body>
 </html>

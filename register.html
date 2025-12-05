@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('https://i0.wp.com/rafflespress.com/wp-content/uploads/2018/04/black-panther-fans-petition-for-wakanda-tv-show-spinoff.jpg?fit=1400%2C700&ssl=1');
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-family: Arial, sans-serif;
+        }
+
+        .content-box {
+            background: rgba(0, 0, 0, 0.5); 
+            padding: 30px;
+            border-radius: 12px;
+            width: 350px;
+            text-align: center;
+            color: white;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: wheat;
+            text-align: center;
+        }
+
+        .checkbox-group, .radio-group {
+            margin: 10px 0;
+            text-align: left;
+        }
+
+        a {
+            display: inline-block;
+            background: yellow;
+            color: black;
+            padding: 10px 20px;
+            margin-top: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="content-box">
+        <h1 style="color: black;">Register Here</h1>
+
+        <form>
+
+            <input type="text" placeholder="Enter your name" required>
+            <input type="email" placeholder="Enter your Email" required>
+
+            <p style="color:white;">Enter your date of birth & attach proof.</p>
+            <input type="date" required>
+            <input type="file" required>
+
+            <p style="color:white;">Select your gender:</p>
+            <div class="radio-group">
+                <input type="radio" name="gender" value="male"> Male<br>
+                <input type="radio" name="gender" value="female"> Female
+            </div>
+
+            <p style="color:white;">Choose your favourite Avengers:</p>
+
+            <a href="sign.html">Submit</a>
+
+        </form>
+    </div>
+    </div>
+
+</body>
+</html>
